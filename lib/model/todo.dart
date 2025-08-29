@@ -21,11 +21,6 @@ class Todo {
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      "id": id,
-      "todo": todo,
-      "completed": completed,
-      "userId": userid,
-    };
+    return {"id": id, "todo": todo, "completed": completed, "userId": userid};
   }
 }
